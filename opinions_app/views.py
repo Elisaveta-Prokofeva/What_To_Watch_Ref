@@ -1,6 +1,6 @@
-# type: ignore
-from opinions_app.forms import OpinionForm
-from opinions_app import app, db, Opinion
+from . import app, db
+from .models import Opinion
+from .forms import OpinionForm
 from random import randrange
 
 from flask import abort, flash, redirect, render_template, url_for

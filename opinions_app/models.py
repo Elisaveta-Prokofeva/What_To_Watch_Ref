@@ -1,5 +1,4 @@
-# type: ignore
-from opinions_app import db
+from . import db
 from datetime import datetime
 
 

@@ -1,10 +1,11 @@
-# type: ignore
+
 import csv
 import click
 
 import os
 
-from opinions_app import app, db, Opinion
+from . import app, db
+from .models import Opinion
 
 
 @app.cli.command('load_opinions')

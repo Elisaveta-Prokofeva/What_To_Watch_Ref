@@ -1,5 +1,4 @@
-# type: ignore
-from opinions_app import app, db
+from . import app, db
 from flask import render_template
 
 
